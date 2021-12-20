@@ -114,7 +114,7 @@
                     Margin="32"
                     FontSize="18"
                     FontWeight="Light"
-                    Text="Copy-paste URL or type in a search query to start downloading"
+                    Text="复制粘贴 URL 或者输入关键字搜索并下载"
                     TextAlignment="Center"
                     TextWrapping="Wrap"
                     Visibility="{Binding Downloads.Count, Converter={x:Static s:BoolToVisibilityConverter.InverseInstance}}" />
